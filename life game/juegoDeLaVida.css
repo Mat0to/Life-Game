@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+    padding: 10px;
+}
+
+
+body {
+    background-image: url(imagenes/terra.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+div {
+    text-align: center;
+    align-items: center;
+    place-items: center;
+}
+
+button {
+    color: white;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#tablero {
+    background-color: #d0b3ff;
+    border-width: 1px;
+    margin: 100px 530px;
+    justify-content: center;
+    text-align: center;
+    width: 330px;
+    height: 330px;
+    border-color: rgba(16, 13, 24, 0.863);
+}
+
+td {
+    border-color: rgb(110, 179, 243);
+}
+
+#celda {
+    border-color: #007bff;
+    width: 10px;
+    height: 10px;
+    border-width: 10px;
+}
+
+tr {
+    border-color: white;
+}
